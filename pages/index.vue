@@ -3,26 +3,13 @@
     <div>
       <logo />
       <h1 class="title">
-        game
+        Game
       </h1>
       <h2 class="subtitle">
-        some games
+        Welcome to my project
       </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
+      <div class="links">        
+          <nuxt-link to="Catalog" class="button--green">Let's go!</nuxt-link>        
       </div>
     </div>
   </div>
